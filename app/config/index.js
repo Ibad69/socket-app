@@ -1,6 +1,6 @@
 if(process.env.NODE_ENV === 'production'){
     //production stage
-    //REDIS_URL :: redis etc
+    //process.env.REDIS_URL :: redis://redistogo:d99d16b16b040428cccbc6a0c6810afe@cobia.redistogo.com:9899/
 
     let redisURI = require('url').parse(process.env.REDIS_URL);
     let redisPassword = redisURI.auth.split(':')[1];
