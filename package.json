@@ -1,0 +1,29 @@
+{
+  "name": "chat_app",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": "12.18.4"
+  },
+  "dependencies": {
+    "connect-mongo": "^3.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.13.3",
+    "express-session": "^1.12.1",
+    "mongoose": "^5.11.1",
+    "morgan": "^1.6.1",
+    "passport": "^0.4.1",
+    "passport-facebook": "^3.0.0",
+    "passport-twitter": "^1.0.4",
+    "redis": "^2.4.2",
+    "socket.io": "^1.4.4",
+    "socket.io-redis": "^1.0.0",
+    "winston": "^2.1.1"
+  }
+}
