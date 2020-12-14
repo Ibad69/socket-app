@@ -4,7 +4,7 @@ const chatCat = require('./app'); // we have created a router instance in the in
 const passport = require('passport');
 const session = require('express-session');
 
-app.set('port', process.env.PORT | 3000);
+app.set('port', process.env.PORT || 3000);
 app.use(express.static('public')); // remove the . before the slash in your html files to invoke the css and other styling features.
 app.set('view engine', 'ejs');
 //app.set('views', './views'); this statement is going to set the views folder change it if you want to.
