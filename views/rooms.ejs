@@ -12,9 +12,7 @@
 	<script>
 		'use strict';
 		$(()=> {
-			let socket = io('<%=host%>' + '/roomslist', {
-				transports: ['websocket']
-			});
+			let socket = io('<%=host%>' + '/roomslist');
 			let newRoomInput = $("input[name='roomName']");
 
 			socket.on('connect', ()=> console.log('connected to the serveer'));
