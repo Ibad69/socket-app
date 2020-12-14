@@ -1,8 +1,8 @@
 const config =require('./config');
 const router = require('express').Router();
 const session = require('express-session');
-const redis = require('redis').createClient;
-const adapter = require('socket.io-redis');
+//const redis = require('redis').createClient;
+//const adapter = require('socket.io-redis');
 
 require('./auth')();
 
