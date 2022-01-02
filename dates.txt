@@ -1,9 +1,0 @@
-this is a notes page for recalling all of the things that I have learned while working on this project.
-
-
-
-Sessions: sessions are used to maintain a login for a specific user for example we need to remember the user that has logged in in order to track the users
-activity throught the website in this case sessions are used sessions can be used in three ways the first one is through req parameters where we add a unique sessionid
-in the url of the website and that particular page can further check for that session and respond accordingly the other way is hidden form fields not very sure about this none
-the third one is browser sessions cookies in this way we are going to store cookies in the users browser which will contain the session id and when the user quits the
-browser the session/cookie is going to expire.
